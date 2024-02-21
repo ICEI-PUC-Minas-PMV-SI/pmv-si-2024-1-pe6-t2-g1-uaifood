@@ -6,7 +6,9 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+A Plataforma UaiFood tem como objetivo fornecer um aplicativo que possa ser utilizado pelos restaurantes, em alternativa às plataformas disponíveis no mercado. 
+Com uma proposta simplificada, os restaurantes poderiam cadastrar as informações de seus empreendimentos, cardápios, horários, promoções, permitir que seus clientes cadastrem suas informações para facilitar as compras.
+A ideia é ter um software simples, de fácil navegabilidade, e que permita pequenas personalizações para que os restaurantes deixem o app com a sua identidade da marca, sem a necessidade de entender de programação.
 
 ## Integrantes
 
