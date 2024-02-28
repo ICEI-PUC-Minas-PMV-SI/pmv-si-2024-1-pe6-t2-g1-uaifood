@@ -24,7 +24,7 @@ O contexto de utilização para o aplicativo proposto é o gerenciamento de vend
 
 ## Objetivos
 
-*Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. *
+*Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.*
 
 O objetivo do projeto é fornecer uma plataforma escalável, que forneça aos restaurantes um serviço de exposição de seus cardápios e vendas online.
 
