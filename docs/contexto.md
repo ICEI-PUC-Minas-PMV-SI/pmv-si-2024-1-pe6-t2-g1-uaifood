@@ -1,18 +1,20 @@
 # Introdução
 
-//Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+*Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.*
+
 Atualmente, ao expandir seus negócios, muitos restaurantes são obrigados a expor seu negócio digitalmente através de plataformas, que levam parte do faturamento, além de arbitrariamente cadastrar promoções que reduzem ainda mais o seu faturamento.
 Para reduzir esse impacto sobre pequenos negócios, o UaiFood se posiciona como uma alternativa onde os restaurantes podem contar com uma estrutura de aplicativo Web e Mobile para realizar vendas online, com controle de seus cardápios e preços praticados, além de informações gerais a serem disponibilizadas ao consumidor.
 O público-alvo do projeto é determinado por restaurantes que necessitam expandir seus negócios virtualmente, ou que já possuem sua marca consolidada localmente e desejam gerenciar suas vendas online em um aplicativo próprio.
 
 ## Problema
-//Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+*Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.*
+
 É possível a construção de um aplicativo próprio para restaurantes, que seja uma alternativa viável para as aplicações/plataformas existentes no mercado?
 
-//Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+*Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.*
 O contexto de utilização para o aplicativo proposto é o gerenciamento de vendas para empreendimentos locais, que querem expandir o seu negócio através de vendas online, que dispõe de estrutura própria de logística para entregas dos alimentos comercializados.
 
-//Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+*Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.*
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -21,10 +23,12 @@ O contexto de utilização para o aplicativo proposto é o gerenciamento de vend
 
 ## Objetivos
 
-//Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+*Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. *
+
 O objetivo do projeto é fornecer uma plataforma escalável, que forneça aos restaurantes um serviço de exposição de seus cardápios e vendas online.
 
-//Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+*Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.*
+
 Possibilitar personalizações simplificadas para os restaurantes (identidade da marca, cardápio, etc)
 Possibilitar cadastro de usuários em grupos específicos (por exemplo: clientes, administração, operadores)
 
@@ -33,18 +37,18 @@ Possibilitar cadastro de usuários em grupos específicos (por exemplo: clientes
 
 ## Justificativa
 
-//Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+*Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.*
+
 A motivação para a aplicação é possibilitar alternativas às plataformas consolidadas no mercado, para que negócios locais tenham maior controle sobre seus cardápios e preços praticados, permitindo beneficiar seus clientes através de campanhas que reforcem a fidelização com a marca.
 
-//O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+*O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.*
 
 > **Links Úteis**:
 > - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
-//Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+*Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.*
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
@@ -56,9 +60,8 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+*Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.*
+*Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto*
 
 ## Personas
 
