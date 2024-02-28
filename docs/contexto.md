@@ -12,6 +12,7 @@ O público-alvo do projeto é determinado por restaurantes que necessitam expand
 É possível a construção de um aplicativo próprio para restaurantes, que seja uma alternativa viável para as aplicações/plataformas existentes no mercado?
 
 *Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.*
+
 O contexto de utilização para o aplicativo proposto é o gerenciamento de vendas para empreendimentos locais, que querem expandir o seu negócio através de vendas online, que dispõe de estrutura própria de logística para entregas dos alimentos comercializados.
 
 *Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.*
