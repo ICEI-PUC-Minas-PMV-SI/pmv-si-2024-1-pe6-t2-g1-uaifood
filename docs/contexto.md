@@ -2,9 +2,9 @@
 
 *Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.*
 
-Atualmente, ao expandir seus negócios, muitos restaurantes são obrigados a expor seu negócio digitalmente através de plataformas, que levam parte do faturamento, além de arbitrariamente cadastrar promoções que reduzem ainda mais o seu faturamento.
+Atualmente, ao expandir seus negócios, muitos restaurantes são obrigados a expor seu negócio digitalmente através de plataformas, que levam parte do faturamento, além de arbitrariamente iniciar promoções que reduzem ainda mais o seu faturamento, famosas por cobrarem preços simbólicos bem abaixo do valor do produto ofertado.
 Para reduzir esse impacto sobre pequenos negócios, o UaiFood se posiciona como uma alternativa onde os restaurantes podem contar com uma estrutura de aplicativo Web e Mobile para realizar vendas online, com controle de seus cardápios e preços praticados, além de informações gerais a serem disponibilizadas ao consumidor.
-O público-alvo do projeto é determinado por restaurantes que necessitam expandir seus negócios virtualmente, ou que já possuem sua marca consolidada localmente e desejam gerenciar suas vendas online em um aplicativo próprio.
+O público-alvo do projeto é determinado por restaurantes que necessitam expandir seus negócios virtualmente, ou que já possuem sua marca consolidada localmente e desejam gerenciar suas vendas online em um aplicativo próprio, sem o intermédio de uma plataforma a qual não tem controle.
 
 ## Problema
 *Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.*
@@ -13,7 +13,7 @@ O público-alvo do projeto é determinado por restaurantes que necessitam expand
 
 *Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.*
 
-O contexto de utilização para o aplicativo proposto é o gerenciamento de vendas para empreendimentos locais, que querem expandir o seu negócio através de vendas online, que dispõe de estrutura própria de logística para entregas dos alimentos comercializados.
+O contexto de utilização para o aplicativo proposto é o gerenciamento de vendas e divulgação do cardápio ofertado para empreendimentos locais, que querem expandir o seu negócio através de vendas online, e que dispõe de estrutura própria de logística para entregas dos alimentos comercializados.
 
 *Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.*
 
@@ -40,7 +40,7 @@ Possibilitar cadastro de usuários em grupos específicos (por exemplo: clientes
 
 *Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.*
 
-A motivação para a aplicação é possibilitar alternativas às plataformas consolidadas no mercado, para que negócios locais tenham maior controle sobre seus cardápios e preços praticados, permitindo beneficiar seus clientes através de campanhas que reforcem a fidelização com a marca.
+A motivação para a aplicação é possibilitar alternativas às plataformas consolidadas no mercado, para que negócios locais tenham maior controle sobre seus cardápios e preços praticados, permitindo beneficiar seus clientes através de campanhas que reforcem a fidelização com a marca. Além disso, o aplicativo proposto é uma forma de consolidação do conhecimento adiquirido até o momento, para o curso de sistemas de informação.
 
 *O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.*
 
@@ -51,7 +51,9 @@ A motivação para a aplicação é possibilitar alternativas às plataformas co
 
 *Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.*
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O público alvo para a aplicação são os proprietários de estabelecimentos alimentícios locais, que necessitam de uma plataforma simplificada para exposição de seus pratos e comercialização online, bem como os consumidores destes estabelecimentos, que veem grande benefício em utilizar uma plataforma específica para seus restaurantes favoritos que dispuserem tal recurso.
+
+*Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.*
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
@@ -66,9 +68,9 @@ Adicione informações sobre o público-alvo por meio de uma descrição textual
 
 ## Personas
 
-Pedro Rezende tem 26 anos, é proprietário de uma pequena pizzaria. Pensa em expandir o seu negócio para vendas online em sua região, porém não poderia manter preços competitivos de seus alimentos caso entrasse em uma plataforma convencional.
-
-Ramon Duarte tem 54 anos, é proprietário de uma conceituada hamburgueria. Por já possuir grande prestígio em sua região de atuação, o empresário deseja comercializar seus lanches online, uma vez que seus clientes já estão fidelizados por sua marca, podendo então adotar um aplicativo próprio para tal.
+- Pedro Rezende tem 26 anos, é proprietário de uma pequena pizzaria localizada em um bairro residencial. Pensa em expandir o seu negócio para vendas online em sua região, porém não poderia manter preços competitivos de seus alimentos caso entrasse em uma plataforma convencional, em que há cobrança pelo percentual de vendas, além de taxas de serviços e manutenção de cadastro.
+- Ramon Duarte tem 54 anos, é proprietário de uma conceituada hamburgueria em um bairro nobre. Por já possuir grande prestígio em sua região de atuação, o empresário deseja comercializar seus lanches online, uma vez que seus clientes já estão fidelizados por sua marca, podendo então adotar um aplicativo próprio para tal.
+- Diogo Silva tem 49 anos, e está iniciando um negócio de marmitas saudáveis. Seu objetivo é já iniciar o seu negócio com um um app próprio, caracterizado com a identidade de sua marca, para maior fidelização de seus clientes.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
@@ -91,7 +93,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+*Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.*
+
+- Eu como Administrador do sistema, necessito alterar permissões de contas, podendo alterar acessos dentro do site conforme os perfis definidos (administrador, operador, cliente);
+- Eu como Administrador do sistema, necessito poder cadastrar, alterar e remover pratos do sistema, com imagens ilustrativas, descrição e preço do prato;
+- Eu como operador, necessito visualizar os pedidos confirmados, e marcá-los como enviados quando o preparo dos pratos estiver finalizado e entrar em rota para entrega;
+- Eu como operador, necessito ter a opção de entrar em contato com o cliente, a fim de confirmar observações ou informar alguma situação inesperada (atrasos, impossibilidade na entrega do prato, etc);
+- Eu como cliente, necessito realizar o cadastro dos dados pessoais, como Endereço, meios de contato, métodos de pagamento e outras informações;
+- Eu como cliente, necessito realizar compras, adicionando produtos no carrinho, alterando suas quantidades e inserindo observações, quando for o caso;
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
@@ -152,6 +161,11 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 Descreva aqui todos os serviços que serão disponibilizados pelo seu projeto, detalhando suas características e funcionalidades.
 
+- Cadastro de usuários: usuários poderão se cadastrar na plataforma, inserindo informações tais como métodos de pagamento, dados pessoais, endereço, e outras informações pertinentes;
+- Gestão de usuários: usuários classificados como administrador poderão realizar gestão de todas as contas cadastradas, com poderes para alteração de nível, alteração de dados exclusão e banimento de contas;
+- Gestão de pratos: usuários classificados como administrador poderão realizar a administração dos pratos cadastrados na plataforma, adicionando, removendo ou editando informações cadastradas (nome, descrição, preço, imagens ilustrativas);
+- Compras: usuários de todos os níveis poderão realizar compras dos produtos previamente cadastrados na plataforma;
+- Acompanhamento de pedidos: usuários classificados como administrador ou operadores poderão acompanhar e informar início da etapa de entrega dos pedidos realizados, bem como visualizar informações de contato para tratar de algum imprevisto ou esclarecimento necessário. 
 
 # Gerenciamento de Projeto
 
