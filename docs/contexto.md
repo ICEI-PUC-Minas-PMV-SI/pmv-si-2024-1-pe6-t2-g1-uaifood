@@ -177,34 +177,38 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
+*O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.*
 ![Gráfico de Gantt](img/02-grafico-gantt.png)
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+*O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.*
 
-![Simple Project Timeline](img/02-project-timeline.png)
+Abaixo, temos uma representação gráfica de como se dará a distribuição das tarefas ao longo do projeto, considerando as etapas que estão por vir:
+
+![Simple Project Timeline](img/Gantt.png)
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+*Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.*
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+A arquitetura de software a ser utilizada neste projeto, se tratando de um software distribuído, irá seguir os conceintos propostos pela abordagem Domains-Driven Design (DDD), que se foca no desenvolvimento de software se concentrando na modelagem de domínio, que envolve entender e representar o domínio do problema de forma clara e precisa no código. Esta abordagem promove uso de linguagem compartilhada entre desenvolvedores, para garantir que seja compreendida pelos envolvidos no projeto.
+Esta abordagem foca na flexibilidade e testes, independente da tecnologia empregada, facilitando a detecção de problemas e manutenção do software, através de uma modelagem de domínio clara.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+*Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.*
+*Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.*
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+*Explique como a hospedagem e o lançamento da plataforma foi feita.*
+
+A hospedagem para a plataforma irá utilizar, enquanto em época de desenvolvimento, o GitHub como principal repositório.
+Após concluído o desenvolvimento, será utilizado o serviço gratuito da Amazon para hospedar os servidores que irão suportar a aplicação. 
 
 > **Links Úteis**:
->
+
 > - [Website com GitHub Pages](https://pages.github.com/)
 > - [Programação colaborativa com Repl.it](https://repl.it/)
 > - [Getting Started with Heroku](https://devcenter.heroku.com/start)
