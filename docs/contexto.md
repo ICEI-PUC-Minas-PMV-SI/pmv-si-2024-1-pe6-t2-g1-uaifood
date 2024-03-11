@@ -178,15 +178,16 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
 *O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.*
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+
+Abaixo, temos uma representação gráfica de como se dará a distribuição das tarefas ao longo do projeto, considerando as etapas que estão por vir:
+
+![Simple Project Timeline](img/Gantt.png)
 
 ## Gerenciamento de Equipe
 
 *O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados.*
 
-Abaixo, temos uma representação gráfica de como se dará a distribuição das tarefas ao longo do projeto, considerando as etapas que estão por vir:
-
-![Simple Project Timeline](img/Gantt.png)
+A divisão de trabalho da equipe se dará de forma a que todos participem da construção de todos os artefatos para entrega do projeto proposto, aproveitando da expertise de cada um dos componentes, e contribuindo para o desenvolvimento de cada um dos membros deste grupo de trabalho.
 
 # Arquitetura da Solução
 
