@@ -182,6 +182,9 @@ Essas atualizações são enviadas ao servidor, que verifica e atualiza as infor
 Os usuários do aplicativo podem navegar pelos restaurantes cadastrados e visualizar seus respectivos cardápios e informações.
 Quando um usuário faz um pedido, os detalhes são enviados ao restaurante correspondente, que pode então preparar e entregar o pedido.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ee5f48be-9a82-412c-927e-cfc7ea59d635)
+
+
 ## Requisitos Funcionais
 
 [Liste os principais requisitos funcionais da aplicação.]
