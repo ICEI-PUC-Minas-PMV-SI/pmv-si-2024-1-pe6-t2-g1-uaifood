@@ -6,6 +6,19 @@ Aqui estão algumas etapas importantes que devem ser consideradas no planejament
 
 [Inclua uma breve descrição do projeto.]
 
+
+Resumo do Projeto: Facilitando o Cadastro de Endereços com a API ViaCEP
+
+Nosso projeto visa simplificar o processo de cadastro de endereços em um aplicativo de entrega de alimentos. Ao integrar a API ViaCEP, os usuários podem inserir apenas o CEP ao preencher seus dados, eliminando a necessidade de digitar manualmente todas as informações do endereço.
+
+Quando um usuário insere o CEP, nossa aplicação faz uma chamada à API ViaCEP para obter automaticamente o nome da rua, o bairro, a cidade e o estado associados a esse CEP. Essas informações são então preenchidas nos campos relevantes do formulário de cadastro.
+
+Isso não apenas simplifica o processo para o usuário, tornando-o mais rápido e conveniente, mas também reduz a probabilidade de erros de digitação. Além disso, a integração com a API ViaCEP garante que os dados de endereço sejam precisos e atualizados, melhorando a eficiência e a confiabilidade do serviço.
+
+
+
+
+
 ## Objetivos da API
 
 O primeiro passo é definir os objetivos da sua API. O que você espera alcançar com ela? Você quer que ela seja usada por clientes externos ou apenas por aplicações internas? Quais são os recursos que a API deve fornecer?
@@ -118,6 +131,8 @@ Este endpoint fornece informações precisas de endereço com base no CEP fornec
 ## Considerações de Segurança
 
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+
+Para garantir a segurança ao usar o Bubble.io e a API ViaCEP em nosso projeto, foi fundamental implementar medidas de segurança como autenticação robusta, validação de entrada de dados, criptografia de dados sensíveis e monitoramento contínuo de atividades. Além disso, é importante manter o software atualizado e adotar práticas de segurança recomendadas para proteger os dados dos usuários e garantir a integridade da aplicação.
 
 ## Implantação
 
