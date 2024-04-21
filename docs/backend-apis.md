@@ -164,6 +164,11 @@ O servidor recebe os dados, valida as informações e armazena o perfil do usuá
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/037b631c-b706-4be7-bf1b-49ab0307a01d)
 
+Seleção de Pratos:
+O usuário final (consumidores do restaurante) poderão selecionar os pratos disponíveis. Nesta tela, cada usuário poderá selecionar dentre todos os pratos, aquele(s) que irá solicitar.
+Após selecionar o(s) prato(s), o usuário seguirá para as telas de confirmação de pedidos, quantidades, endereço para entrega e formas de pagamento, até que finalizae o seu pedido ao restaurante.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ee5f48be-9a82-412c-927e-cfc7ea59d635)
 
 Cadastro do Restaurante:
 O restaurante acessa a plataforma e inicia o processo de cadastro.
@@ -182,16 +187,19 @@ Essas atualizações são enviadas ao servidor, que verifica e atualiza as infor
 Os usuários do aplicativo podem navegar pelos restaurantes cadastrados e visualizar seus respectivos cardápios e informações.
 Quando um usuário faz um pedido, os detalhes são enviados ao restaurante correspondente, que pode então preparar e entregar o pedido.
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ee5f48be-9a82-412c-927e-cfc7ea59d635)
-
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+- Cadastro e edição de pratos;
+- Cadastro e edição de usuários;
+- Realização de pedidos;
 
 ## Requisitos Não Funcionais
 
 [Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+- Escalabilidade: ser possível ser utilizada para mais de um restaurante;
+- Não apresentar gargalos em picos de utilização;
+- Disponibilidade 
 
 ## Tecnologias Utilizadas
 
