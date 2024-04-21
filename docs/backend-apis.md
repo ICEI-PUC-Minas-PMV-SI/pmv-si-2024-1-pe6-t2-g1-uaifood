@@ -7,15 +7,11 @@ Aqui estão algumas etapas importantes que devem ser consideradas no planejament
 [Inclua uma breve descrição do projeto.]
 
 
-Resumo do Projeto: Facilitando o Cadastro de Endereços com a API ViaCEP
+ESTRUTURA DA APLICAÇÃO
 
-Nosso projeto visa simplificar o processo de cadastro de endereços em um aplicativo de entrega de alimentos. Ao integrar a API ViaCEP, os usuários podem inserir apenas o CEP ao preencher seus dados, eliminando a necessidade de digitar manualmente todas as informações do endereço.
-
-Quando um usuário insere o CEP, nossa aplicação faz uma chamada à API ViaCEP para obter automaticamente o nome da rua, o bairro, a cidade e o estado associados a esse CEP. Essas informações são então preenchidas nos campos relevantes do formulário de cadastro.
-
-Isso não apenas simplifica o processo para o usuário, tornando-o mais rápido e conveniente, mas também reduz a probabilidade de erros de digitação. Além disso, a integração com a API ViaCEP garante que os dados de endereço sejam precisos e atualizados, melhorando a eficiência e a confiabilidade do serviço.
-
-
+Iremos descrever neste documento informações a respeito do UaiFood, uma aplicação cujo o objetivo é permitir que os restaurantes possuam uma alternativa aos grandes players do mercado, que, ao disponibilizar seus serviços de vendas através da internet, abocanham significativa parcela do faturamento bruto destes restaurantes, tornando o produto caro para o consumidor final.
+Para resolver esse problema, o UaiFood tem a proposta de ser uma plataforma escalável, em que cada restaurante irá possuir sua própria versão do aplicativo, com toda a sua estrutura apartada, de forma padronizada, facilitando a construção e manutenção da aplicação, e permitindo que vários empreendimentos possam utilizar dos serviços de comercialização online.
+Para a construção do app UaiFood, optamos por utilizar o Bubble.io, uma plataforma que permite o desenvolvimento de softwares sem a utilização de código. A escolha foi motivada por alguns aspectos específicos, tais como a praticidade na construção da aplicação, o fato de a própria plataforma hospedar a aplicação construída,e também para permitir que toda a equipe, indiferente da especialização de cada um dos membros pudesse contribuir sem limitações de conhecimento em uma linguagem de programação específica.
 
 
 
@@ -33,9 +29,76 @@ A arquitetura da API ViaCEP é fundamentada nos princípios da arquitetura REST,
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
-
+ESTRUTURA DO BANCO DE DADOS
 
 A modelagem de dados estrela é uma abordagem utilizada em data warehousing, onde os dados são organizados em torno de uma tabela central, chamada de tabela fato, e tabelas secundárias, chamadas de tabelas de dimensão. Na tabela fato, são armazenados os fatos ou medidas centrais do negócio, como vendas ou transações, enquanto as tabelas de dimensão representam diferentes perspectivas dos dados, como tempo, produto ou localização. As chaves estrangeiras na tabela fato estabelecem relacionamentos com as chaves primárias das tabelas de dimensão, permitindo análises multidimensionais. Essa estrutura em forma de estrela simplifica consultas analíticas complexas e facilita a compreensão e a análise dos dados de negócio.
+
+Utilizando de uma arquitetura estrela, o Banco de Dados da aplicação é responsável por abrigar as informações que são processadas no UaiFood.
+O Banco de Dados irá contar com uma estrutura SQL que, em várias tabelas, irá consolidar as informações referentes às contas dos usuários do sistema, informações sobre os itens disponíveis nos cardápios de cada restaurante, pedidos realizados, validação dos pagamentos dos pedidos e informações dos restaurantes, de forma individualizada, evitando assim o acesso à base de clientes entre os contratantes da plataforma.
+A seguir, trataremos sobre a divisão das tabelas do banco de dados, explicando a divisão e os campos que as mesmas possuem.
+Restaurante: Nesta tabela estão dispostas informações sobre o restaurante contratante da solução. Esta tabela personifica o restaurante, com as informações de identificação do restaurante, além de outras informações relevantes. Esta tabela contará com os seguintes campos:
+ID_Restaurante: campo de identificação do restaurante com um código. Irá abrigar um valor numérico que identifica o restaurante na base de dados do UaiFood;
+descrição_Restaurante: campo que trará ao cliente final informações gerais do restaurante. Irá abrigar um texto;
+endereço_Restaurante: campo textual para informar ao consumidor o endereço do restaurante. Abriga um texto;
+abertura_Restaurante: campo numérico no formato “hh:mm” que informa o horário de abertura do restaurante;
+fechamento_Restaurante: campo numérico no formato “hh:mm” que informa o horário de encerramento das atividades do restaurante;
+foto_Restaurante: recebe um arquivo do tipo imagem, para que seja a identidade do restaurante dentro do aplicativo.
+
+Clientes: Esta tabela irá abrigar todas as informações sobre os usuários cadastrados para cada restaurante, tanto para os clientes quanto para os operadores do restaurante, que irão lidar com a resolução dos pedidos.
+Id_Conta: campo de identificação do cadastro do cliente do restaurante em questão. Irá abrigar um valor numérico que identifica a conta do cliente na base de dados do UaiFood;
+nome_Conta: campo textual que recebe o nome do usuário cadastrado;
+email_Conta: campo textual para salvar o email utilizado para o cadastro;
+cep_Conta: campo do tipo numérico que irá abrigar o CEP do endereço de entrega para os pedidos;
+endereço_Conta: campo do tipo textual que irá abrigar o nome da rua, que será obtido através de uma API utilizada para validar o endereço e auxiliar no preenchimento do cadastro;
+número_Conta: campo numérico para inserção do número da residência para entrega dos pedidos realizados;
+complemento_Conta: campo textual para inserção do complemento do endereço cadastrado. Não é um campo cujo preenchimento é obrigatório;
+bairro_Conta: campo textual para abrigar o nome do bairro do cliente, recebido através da API mencionada anteriormente;
+cidade_Conta: campo textual para abrigar o nome da cidade do cliente, recebido através da API mencionada anteriormente;
+telefone_Conta: campo do tipo textual que trará o registro de um telefone para contato com o cliente. Este campo é do tipo textual para que seja permitido a utilização de determinados símbolos, como hífens, parênteses e outros comumente utilizados para telefones de contato;
+foto_Conta: recebe um arquivo do tipo imagem, para que seja a identidade do cliente do restaurante dentro do aplicativo. Este não é um campo de preenchimento obrigatório;
+tipoPagamento_Conta: campo de seleção múltipla que irá identificar o método de pagamento que o cliente irá utilizar em seus pedidos;
+númeroCartão_Conta: campo numérico que irá trazer dados do método de pagamento (cartões) utilizado pelo cliente;
+validadeCartão_Conta: campo numérico do tipo data (mm/aa) que irá trazer dados do método de pagamento (cartões) utilizado pelo cliente;
+cvvCartão_Conta: campo numérico que irá trazer dados do método de pagamento (cartões) utilizado pelo cliente;
+nomeCartão_Conta: campo do tipo textual para informação do nome impresso no cartão cadastrado
+
+Staff: Esta tabela específica é responsável por abrigar informações sobre as contas dos funcionários e pessoas que terão acesso ao UaiFood por parte do restaurante.
+Id_Staff: campo de identificação do cadastro do funcionário do restaurante em questão. Irá abrigar um valor numérico que identifica a conta na base de dados do UaiFood;
+nome_Staff: campo textual que recebe o nome do usuário cadastrado;
+email_Staff: campo textual para salvar o email utilizado para o cadastro;
+cep_Staff: campo do tipo numérico que irá abrigar o CEP do endereço do funcionário cadastrado;
+endereço_Staff: campo do tipo textual que irá abrigar o nome da rua, que será obtido através de uma API utilizada para validar o endereço e auxiliar no preenchimento do cadastro;
+número_Staff: campo numérico para inserção do número da residência do funcionário cadastrado;
+complemento_Staff: campo textual para inserção do complemento do endereço cadastrado. Não é um campo cujo preenchimento é obrigatório;
+bairro_Staff: campo textual para abrigar o nome do bairro do funcionário do restaurante, recebido através da API mencionada anteriormente;
+cidade_Staff: campo textual para abrigar o nome da cidade do funcionário do restaurante, recebido através da API mencionada anteriormente;
+telefone_Staff: campo do tipo textual que trará o registro de um telefone para contato com o funcionário. Este campo é do tipo textual para que seja permitido a utilização de determinados símbolos, como hífens, parênteses e outros comumente utilizados para telefones de contato;
+foto_Staff: recebe um arquivo do tipo imagem, para que seja a identidade do colaborador do restaurante dentro do aplicativo. Este não é um campo de preenchimento obrigatório;
+banco_Staff: campo numérico que recebe o número de identificação do banco em que o funcionário recebe seu salário;
+agencia_Staff: campo numérico que recebe o número de identificação da agência do banco em que o funcionário recebe seu salário;
+contaSalario_Staff: campo textual que recebe o número de identificação da conta no banco em que o funcionário recebe seu salário. Este é um campo do tipo textual para que seja possível inserir um “hífen” que separa o número da conta do dígito verificador;
+cargo_Staff: Campo textual que traz o cargo do colaborador a qual o cadastro se refere.
+
+Cardápio: Irá compor todos os ítens disponíveis para consumo dos clientes do restaurante. Esta tabela possui campos específicos para a descrição do prato, valor, e uma imagem ilustrativa.
+Id_Produto: campo de identificação do prato oferecido pelo restaurante com um código. Irá abrigar um valor numérico para identificação;
+nome_Produto: campo textual que recebe o nome do prato cadastrado pelo restaurante;
+valor_Produto: campo numérico (moeda) que recebe o valor unitário do prato em questão;
+descrição_Produto: campo que trará ao cliente final informações gerais do prato oferecido pelo restaurante. Neste campo, a administração do restaurante irá inserir as características e ingredientes do prato em questão. Irá abrigar um texto;
+foto_Produto: recebe um arquivo do tipo imagem, para que seja inserido junto às informações do prato dentro do aplicativo.
+
+Pagamento: Esta tabela irá consolidar as informações sobre os status de pagamentos realizados através da plataforma, e os pedidos a quais se referem.
+Id_Pagamento: campo de identificação do pagamento do pedido realizado pelo cliente com um código. Irá abrigar um valor numérico para esta identificação;
+status_Pagamento: campo textual com seleção múltipla que irá abrigar as informações a respeito do status do pagamento do pedido realizado.
+
+Pedido: principal tabela da estrutura, esta tabela irá reunir informações de todas as demais, através de campos chave para identificação dos pedidos realizados. Buscando informações sobre os ids dentro das demais tabelas, dentro dos registros de pedidos estarão contidas as informações do solicitante (tabela contas/usuários), os itens solicitados (tabela cardápio), informações sobre o processamento de pagamento (tabela pagamento).
+Id_Pedido: campo de identificação do pedido realizado pelo cliente ao restaurante com um código. Irá abrigar um valor numérico;
+status_Pedido: campo textual com seleção múltipla que irá abrigar as informações a respeito do status do pedido dentro do ciclo de vida do pedido;
+Qtde_Pedido: campo numérico que trará a quantidade pedida pelo cliente, em relação aos itens inseridos no pedido;
+total_Pedido: campo numérico do tipo moeda que trará o valor total a ser pago pelo cliente por todos os itens solicitados no pedido realizado.
+
+É importante lembrar que as tabelas também possuem campos que são compartilhados entre elas, geralmente acoplados através dos campos de “IDs” de cada uma das tabelas.
+Como exemplo, temos a tabela “Pedido”, que é necessário que haja uma forma de identificação do cliente que fez a solicitação, para isso, essa tabela “importa” campos específicos da tabela “Clientes”.
+
 
 
 
