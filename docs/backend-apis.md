@@ -47,6 +47,32 @@ A modelagem de dados estrela é uma abordagem utilizada em data warehousing, ond
 
 [Diagrama ou descrição do fluxo de dados na aplicação.]
 
+Cadastro de Usuário:
+O usuário acessa o aplicativo e inicia o processo de cadastro.
+Ele fornece suas informações pessoais, como nome, endereço de e-mail e senha.
+Após preencher o formulário de cadastro, o usuário envia os dados para o servidor.
+O servidor recebe os dados, valida as informações e armazena o perfil do usuário no banco de dados.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/037b631c-b706-4be7-bf1b-49ab0307a01d)
+
+
+Cadastro do Restaurante:
+O restaurante acessa a plataforma e inicia o processo de cadastro.
+Ele fornece informações sobre o restaurante, como nome, endereço, tipo de culinária, horário de funcionamento, entre outros.
+O restaurante também insere detalhes do cardápio, incluindo pratos disponíveis, descrições e preços.
+Após preencher o formulário de cadastro, o restaurante envia os dados para o servidor.
+O servidor recebe os dados, valida as informações e armazena o perfil do restaurante juntamente com o cardápio no banco de dados.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/5c04c9fa-f8cd-4a1d-9652-3a28a92421a4)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/f9e637ce-86f3-4792-815b-5cd2b9bcf061)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/f16ded0c-afc1-4295-aac1-208e63b64ec5)
+
+Gerenciamento de Informações:
+O restaurante pode acessar seu perfil a qualquer momento para atualizar informações, como horário de funcionamento, cardápio ou detalhes de contato.
+Essas atualizações são enviadas ao servidor, que verifica e atualiza as informações no banco de dados.
+Os usuários do aplicativo podem navegar pelos restaurantes cadastrados e visualizar seus respectivos cardápios e informações.
+Quando um usuário faz um pedido, os detalhes são enviados ao restaurante correspondente, que pode então preparar e entregar o pedido.
+
 ## Requisitos Funcionais
 
 [Liste os principais requisitos funcionais da aplicação.]
