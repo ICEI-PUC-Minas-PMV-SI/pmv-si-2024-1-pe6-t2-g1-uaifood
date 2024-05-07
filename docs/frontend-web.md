@@ -1,21 +1,25 @@
 # Front-end Web
 
 [Inclua uma breve descrição do projeto e seus objetivos.]
+
 Nosso projeto é um aplicativo de delivery que conecta restaurantes e clientes, permitindo que os usuários façam pedidos de comida online e recebam os itens diretamente em suas casas. O objetivo principal é proporcionar uma experiência conveniente e eficiente para pedidos de comida.
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
+
 Bubble.io (plataforma de desenvolvimento no-code)
 Bibliotecas e plugins disponíveis no Bubble.io
 
 ## Arquitetura
 
 [Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
+
 A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em fluxos de trabalho e elementos de interface gráfica. Os componentes serão organizados em páginas e reutilizados conforme necessário.
 
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
 Nossa aplicação terá as seguintes entidades principais:
 Usuário (Cliente)
 Restaurante
@@ -25,10 +29,12 @@ Item de Menu
 
 ## Projeto da Interface Web
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
+
 A interface será projetada para ser intuitiva e fácil de usar, com foco na experiência do usuário. Teremos páginas para listagem de restaurantes, visualização de menus, carrinho de compras e rastreamento de pedidos.
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+
 Bubble é uma plataforma low code, onde não necessitamos de wireframos pois o sistema cuida de toda a integração.
 
 ### Design Visual
@@ -40,16 +46,19 @@ Tipografia: Fontes modernas e legíveis para garantir uma boa experiência de le
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+
 O layout será adaptado para dispositivos móveis e desktops, garantindo uma experiência consistente em diferentes tamanhos de tela.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+
 Animar transições entre páginas para uma experiência mais fluida.
 Feedback visual para ações do usuário, como adicionar itens ao carrinho ou confirmar um pedido.
 
 ## Fluxo de Dados
 
 [Diagrama ou descrição do fluxo de dados na aplicação.]
+
 ![Foto Diagrama](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/763e2e08-4b3f-49a8-8cc1-f774c1dd5042)
 
 ## Requisitos Funcionais
@@ -73,6 +82,7 @@ Escalabilidade: O aplicativo deve ser escalável para lidar com um grande númer
 ## Considerações de Segurança
 
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+
 Autenticação: Utilização de métodos seguros de autenticação para proteger as contas dos usuários.
 Proteção dos dados: Criptografia dos dados sensíveis dos usuários e transações financeiras.
 Prevenção de fraudes: Implementação de medidas para detectar e prevenir atividades fraudulentas, como pedidos falsos ou uso indevido de informações de cartão de crédito.
