@@ -44,6 +44,11 @@ Paleta de Cores: Cores vibrantes e atraentes para chamar a atenção do usuário
 Tipografia: Fontes modernas e legíveis para garantir uma boa experiência de leitura.
 Ícones: Ícones intuitivos para representar diferentes categorias de alimentos e ações do usuário.
 
+![paleta-nuvemshop-f16d1c](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/beabe833-0c2a-49f0-9304-a6b5cbb72428)
+![Paleta](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/059d4f5c-bdcb-4a19-a7c7-e79707332a03)
+
+
+
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
 
