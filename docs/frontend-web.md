@@ -132,6 +132,59 @@ O Bubble.io oferece ferramentas integradas de monitoramento para acompanhar o de
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
+   Testes UaiFood
+
+Cadastro ao Sistema
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ac0bce3b-5735-4952-93d9-bf9c62ec8822)
+
+
+Persistência no banco de dados.
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/870223ac-e053-433b-bbd6-7f65798dad4a)
+
+
+
+Após concluir o cadastro, login com credenciais cadastradas.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/3b197f63-31e1-4454-81e9-47bf83edd901)
+
+
+Dados utilizados para acesso.
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/6ad34538-daeb-4406-9181-dfe37ee9e239)
+
+
+
+Acesso ao Dashboard e cadastro de novo restaurante
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/d2557e4a-d421-4296-830b-a7a6c575b7b5)
+
+
+
+Persistência dos dados na tabela restaurante
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/a4d04139-3756-4f79-beb4-56ad1b5686f7)
+
+
+Adição de novo item no cardapio
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/15f3706b-f106-4e13-a590-47c17b2d403e)
+
+
+Persistência no front end
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/7dd240cc-d39b-48af-9305-8237404ee814)
+
+
+Persistência no banco
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/f88a0f33-682f-4fd6-ae01-a4a76c2861c0)
+
+
+
+
 # Referências
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
