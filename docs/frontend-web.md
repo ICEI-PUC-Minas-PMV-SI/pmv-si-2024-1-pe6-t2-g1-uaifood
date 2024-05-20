@@ -184,7 +184,7 @@ Persistência no banco
 
 
 # Cronograma
-![image]()
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/blob/main/docs/img/Acompanhamento%20do%20projeto_Etapa%203.png?raw=true)
 
 
 # Referências
