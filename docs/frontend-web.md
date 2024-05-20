@@ -183,6 +183,8 @@ Persistência no banco
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/f88a0f33-682f-4fd6-ae01-a4a76c2861c0)
 
 
+# Cronograma
+![image]()
 
 
 # Referências
