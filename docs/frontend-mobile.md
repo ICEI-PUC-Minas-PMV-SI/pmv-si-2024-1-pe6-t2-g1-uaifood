@@ -52,14 +52,10 @@ Animar transições entre páginas para uma experiência mais fluida. Feedback v
 
 [Liste os principais requisitos funcionais da aplicação.]
 
-RF01 - Gerenciar informações pessoais
-
-RF02 - Disparar notificações na alteração do status (??)
-
-RF03 - Gerenciar pedidos
-
-RF04 - Visualizar catálogo do restaurante
-
+RF01 - Gerenciar informações pessoais<br>
+RF02 - Disparar notificações na alteração do status (??)<br>
+RF03 - Gerenciar pedidos<br>
+RF04 - Visualizar catálogo do restaurante<br>
 RF05 - Gerenciar carrinho
 
 ## Requisitos Não Funcionais
