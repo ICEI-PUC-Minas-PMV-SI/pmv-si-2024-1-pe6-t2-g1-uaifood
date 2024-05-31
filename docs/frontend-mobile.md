@@ -1,16 +1,20 @@
 # Front-end Móvel
 [Inclua uma breve descrição do projeto e seus objetivos.]
+
 A Plataforma UaiFood tem como objetivo fornecer um aplicativo que possa ser utilizado pelos restaurantes, em alternativa às plataformas disponíveis no mercado. Com uma proposta simplificada, os restaurantes poderiam cadastrar as informações de seus empreendimentos, cardápios, horários, promoções, permitir que seus clientes cadastrem suas informações para facilitar as compras. 
+
 A ideia é ter um software simples, de fácil navegabilidade, e que permita pequenas personalizações para que os restaurantes deixem o app com a sua identidade da marca, sem a necessidade de entender de programação.
 
 Especificamente par ao app móvel, o aplicativo tem como objetivo gerenciar as vendas através desta estrutura própria, em que os clientes realizem suas compras com comodidade e praticidade, sendo atendida diretamente pelo restaurante em questão
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
+
 Iremos utilizar a plataforma Bubble.io (plataforma de desenvolvimento no-code) Bibliotecas e plugins disponíveis no Bubble.io
 
 ## Arquitetura
 [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+
 A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em fluxos de trabalho e elementos de interface gráfica. Os componentes serão organizados em páginas e reutilizados conforme necessário.
 
 ## Modelagem da Aplicação
@@ -21,18 +25,22 @@ A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em flux
 
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
-Bubble é uma plataforma low code, onde não necessitamos de wireframos pois o sistema cuida de toda a integração.
+
+
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+
 Paleta de Cores: Cores vibrantes e atraentes para chamar a atenção do usuário. Tipografia: Fontes modernas e legíveis para garantir uma boa experiência de leitura. Ícones: Ícones intuitivos para representar diferentes categorias de alimentos e ações do usuário.
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+
 O layout será adaptado para dispositivos móveis com telas de diversos tamanhos, garantindo uma experiência consistente em diferentes modelos de dispositivos.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
+
 Animar transições entre páginas para uma experiência mais fluida. Feedback visual para ações do usuário, como adicionar itens ao carrinho ou confirmar um pedido.
 
 ## Fluxo de Dados
@@ -41,16 +49,20 @@ Animar transições entre páginas para uma experiência mais fluida. Feedback v
 ## Requisitos Funcionais
 
 [Liste os principais requisitos funcionais da aplicação.]
-Gerenciar cadastro de informações pessoais
-Realizar pedidos
-Acompanhar informações sobre os pedidos finalizados
+
+RF01 - Gerenciar informações pessoais
+RF02 - Disparar notificações na alteração do status (??)
+RF03 - Gerenciar pedidos
+RF04 - Visualizar catálogo do restaurante
+RF05 - Gerenciar carrinho
 
 ## Requisitos Não Funcionais
 
 [Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
-App escalável
-Alta disponibilidade
-Tratar requisições rapidamente (até 5 segundos)
+
+RNF01 - Garantir a disponibilidade do app em 95% do tempo
+RNF02 - Tratar requisições em até 5s
+RNF03 - Permitir 100 conexões simultâneas
 
 ## Considerações de Segurança
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
