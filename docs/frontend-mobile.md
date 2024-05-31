@@ -53,17 +53,21 @@ Animar transições entre páginas para uma experiência mais fluida. Feedback v
 [Liste os principais requisitos funcionais da aplicação.]
 
 RF01 - Gerenciar informações pessoais
+
 RF02 - Disparar notificações na alteração do status (??)
+
 RF03 - Gerenciar pedidos
+
 RF04 - Visualizar catálogo do restaurante
+
 RF05 - Gerenciar carrinho
 
 ## Requisitos Não Funcionais
 
 [Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
 
-RNF01 - Garantir a disponibilidade do app em 95% do tempo
-RNF02 - Tratar requisições em até 5s
+RNF01 - Garantir a disponibilidade do app em 95% do tempo<br>
+RNF02 - Tratar requisições em até 5s<br>
 RNF03 - Permitir 100 conexões simultâneas
 
 ## Considerações de Segurança
