@@ -26,7 +26,7 @@ A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em flux
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
-
+![Wireframe app UAIfood](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/blob/main/docs/img/Menu-restaurante.jpg)
 
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
