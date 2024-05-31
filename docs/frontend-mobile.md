@@ -33,7 +33,9 @@ A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em flux
 ### Design Visual
 [Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
 
-Paleta de Cores: Cores vibrantes e atraentes para chamar a atenção do usuário. Tipografia: Fontes modernas e legíveis para garantir uma boa experiência de leitura. Ícones: Ícones intuitivos para representar diferentes categorias de alimentos e ações do usuário.
+Paleta de Cores: Cores vibrantes e atraentes para chamar a atenção do usuário. <br>
+Tipografia: Fontes modernas e legíveis para garantir uma boa experiência de leitura. <br>
+Ícones: Ícones intuitivos para representar diferentes categorias de alimentos e ações do usuário.
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
@@ -53,10 +55,11 @@ Animar transições entre páginas para uma experiência mais fluida. Feedback v
 [Liste os principais requisitos funcionais da aplicação.]
 
 RF01 - Gerenciar informações pessoais<br>
-RF02 - Disparar notificações na alteração do status (??)<br>
+RF02 - Disparar notificações na alteração do status<br>
 RF03 - Gerenciar pedidos<br>
 RF04 - Visualizar catálogo do restaurante<br>
-RF05 - Gerenciar carrinho
+RF05 - Gerenciar carrinho<br>
+RF06 - Avaliar restaurante/pedidos
 
 ## Requisitos Não Funcionais
 
