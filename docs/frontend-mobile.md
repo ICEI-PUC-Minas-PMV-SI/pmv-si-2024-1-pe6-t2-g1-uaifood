@@ -10,12 +10,30 @@ Especificamente par ao app móvel, o aplicativo tem como objetivo gerenciar as v
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
 
-Iremos utilizar a plataforma Bubble.io (plataforma de desenvolvimento no-code) Bibliotecas e plugins disponíveis no Bubble.io
+Plataforma de Desenvolvimento:
+
+Bubble.io: Utilizaremos a plataforma Bubble.io, que permite o desenvolvimento de aplicativos web sem a necessidade de codificação tradicional. A Bubble.io facilita a criação de interfaces, a gestão de dados e a implementação de lógica de negócios através de uma abordagem visual.
+Bibliotecas e Plugins Disponíveis no Bubble.io:
+
+Plugins de UI/UX: Utilizaremos plugins disponíveis no Bubble.io para aprimorar a interface do usuário (UI) e a experiência do usuário (UX). Exemplos incluem plugins para elementos de design como sliders, carrosséis de imagens, gráficos interativos e animações.
+Integrações de API: Plugins que permitem a integração com serviços de terceiros, como Google Maps para geolocalização, Stripe para pagamentos, e Twilio para SMS e notificações.
+Ferramentas de Análise: Plugins para integrar ferramentas de análise e monitoramento, como Google Analytics e Hotjar, que ajudarão a monitorar o comportamento dos usuários e a performance do aplicativo.
+Segurança: Plugins que adicionam camadas extras de segurança, como autenticação de dois fatores (2FA) e encriptação de dados.
 
 ## Arquitetura
 [Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
 
-A arquitetura do nosso aplicativo de delivery no Bubble.io será baseada em fluxos de trabalho e elementos de interface gráfica. Os componentes serão organizados em páginas e reutilizados conforme necessário.
+A arquitetura do nosso aplicativo no Bubble.io será organizada de forma a maximizar a reutilização de componentes e a eficiência dos fluxos de trabalho. A seguir, uma descrição detalhada dos principais componentes e suas interações:
+
+Componentes Principais:
+Frontend:
+
+Páginas de Interface: Cada página do aplicativo (como a página inicial, menu de restaurantes, carrinho de compras, etc.) será criada utilizando os elementos de interface gráfica do Bubble.io. Essas páginas serão projetadas para serem responsivas e intuitivas.
+Elementos Reutilizáveis: Componentes comuns, como cabeçalhos, rodapés, e barras de navegação, serão criados como elementos reutilizáveis para garantir consistência e facilitar a manutenção.
+Backend:
+
+Banco de Dados: Utilizaremos o sistema de banco de dados integrado do Bubble.io para armazenar informações dos usuários, dados dos pedidos, inventário dos restaurantes, etc. O banco de dados será estruturado em diferentes tabelas com relações apropriadas para garantir integridade e eficiência.
+Fluxos de Trabalho: Os fluxos de trabalho (workflows) no Bubble.io serão configurados para gerenciar a lógica de negócios, como processamento de pedidos, atualização de status dos pedidos, notificações em tempo real, e integração com serviços de pagamento.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
