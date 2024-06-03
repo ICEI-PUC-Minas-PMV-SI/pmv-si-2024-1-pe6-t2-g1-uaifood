@@ -156,3 +156,13 @@ RNF03 - Permitir 100 conexões simultâneas
 
 # Referências
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+
+Documentação Oficial do Bubble.io: Bubble.io Documentation
+
+Fórum da Comunidade Bubble.io: Bubble Forum
+
+Bubble Academy: Bubble Academy
+
+Documentação de Implantação do Bubble.io: Bubble.io Deployment Documentation
+
+Bubble Apps Showcase: Bubble Apps Showcase
