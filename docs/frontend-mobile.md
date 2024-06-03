@@ -47,6 +47,19 @@ Fluxos de Trabalho: Os fluxos de trabalho (workflows) no Bubble.io serão config
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
+A interface móvel da nossa aplicação de delivery foi projetada para ser intuitiva, responsiva e visualmente atraente, proporcionando uma experiência de usuário agradável e eficiente. Detalhamos o design visual e aspectos relevantes do projeto da interface.
+
+Design Visual
+Uma interface amigável e fácil de navegar.
+Uma paleta de cores harmoniosa e consistente.
+Usar uma tipografia clara e legível.
+Um design que seja responsivo e adaptável a diferentes tamanhos de tela.
+
+Elementos Visuais
+Uma paleta principal com cores suaves e complementares, combinados com cores de destaque (como laranja) para botões e chamadas de ação.
+Usar fontes modernas e legíveis, com tamanhos adequados para leitura em dispositivos móveis.
+Uso de ícones simples e imagens de alta qualidade para ilustrar, pratos e outras informações relevantes.
+
 ### Wireframes
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
