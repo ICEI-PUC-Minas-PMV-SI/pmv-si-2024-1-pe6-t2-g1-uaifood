@@ -38,6 +38,12 @@ Fluxos de Trabalho: Os fluxos de trabalho (workflows) no Bubble.io serão config
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+![Diagrama dados](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ca6def10-3609-42d8-bbfc-5576bc56a081)
+
+
+![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/fb5d044b-2a6d-47ec-bc64-d251810cbd7a)
+
+
 ## Projeto da Interface
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
