@@ -87,6 +87,33 @@ Animar transições entre páginas para uma experiência mais fluida. Feedback v
 ## Fluxo de Dados
 [Diagrama ou descrição do fluxo de dados na aplicação.]
 
+Fluxo de Dados
+O fluxo de dados na nossa aplicação de delivery desenvolvida na plataforma Bubble.io é estruturado para garantir que as informações sejam processadas de maneira eficiente e segura, desde a entrada dos dados pelos usuários até o processamento e armazenamento no banco de dados. 
+
+1. Entrada do Usuário:
+
+Cadastro e Login: Os usuários fornecem suas informações pessoais, como nome, email e senha, para criar uma conta ou fazer login. Esses dados são validados e enviados ao servidor.
+
+2. Processamento de Dados:
+
+Adição ao Carrinho: Quando o usuário adiciona itens ao carrinho, as informações sobre os pratos selecionados, incluindo quantidade e preços, são enviadas ao backend e temporariamente armazenadas.
+
+3. Armazenamento de Dados:
+
+Banco de Dados: Informações dos usuários, detalhes dos restaurantes, menus de pratos, e pedidos são armazenados no banco de dados. O Bubble.io gerencia o armazenamento e a segurança dos dados utilizando práticas recomendadas.
+
+4. Interações com APIs Externas:
+
+Geolocalização: Para entregas, a API dos correios é utilizada para facilitar o preenchimentos de dados do endereço. 
+
+5. Atualizações e Notificações:
+
+Status do Pedido: Os dados do pedido são constantemente atualizados e disponibilizados para o usuário acompanhar o status em tempo real.
+
+6. Exibição de Dados:
+
+Interface do Usuário: Todos os dados processados e armazenados são apresentados ao usuário através de uma interface intuitiva e responsiva. Informações como menus de restaurantes, detalhes do pedido, e status de entrega são exibidos de forma clara e acessível.
+
 ## Requisitos Funcionais
 
 [Liste os principais requisitos funcionais da aplicação.]
