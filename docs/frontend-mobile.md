@@ -140,10 +140,35 @@ RNF03 - Permitir 100 conexões simultâneas
 [Instruções para implantar a aplicação distribuída em um ambiente de produção.]
 
 1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+
+Não há requisitos específicos de hardware, pois utilizarei o Bubble.io, uma plataforma de desenvolvimento no-code que gerencia a infraestrutura necessária. Isso significa que não precisarei configurar servidores físicos ou virtuais.
+Para acessar e gerenciar minha aplicação no Bubble.io, utilizarei um navegador da web moderno e atualizado, como Google Chrome, Mozilla Firefox, Microsoft Edge ou Safari. Além disso, é necessário uma conexão à Internet estável.
+
+3. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
+
+A hospedagem será feita diretamente no Bubble.io, que oferece uma plataforma de hospedagem integrada. Esta é a maneira mais simples e eficiente para implantar minha aplicação.
+Caso minha aplicação necessite de mais recursos ou personalização no futuro, considerarei planos de preços mais elevados do Bubble.io, que oferecem maior capacidade de processamento, armazenamento e suporte.
+   
+5. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
+
+Ambiente de Desenvolvimento sera o Bubble.io:
+O Bubble.io gerencia todas as dependências necessárias para executar a aplicação, eliminando a necessidade de instalação manual.
+No editor do Bubble.io, irei para Configurações e depois para a aba "API".
+Adicionarei minhas variáveis de ambiente na seção "Secrets", como chaves de API e URLs de endpoints externos.
+
+6. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
+
+No editor do Bubble.io, clicarei no botão "Deploy" (Implantar) no canto superior direito.
+Selecionarei "Deploy to Live" (Implantar para Produção).
+Confirmarei o deploy para mover minha aplicação do ambiente de desenvolvimento para o ambiente de produção.
+Verificarei se todas as alterações estão refletidas na versão de produção.
+
+7. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+Vamos verificar  se todas as funcionalidades principais da aplicação estão funcionando conforme esperado, testando fluxos de usuário como login, cadastro, navegação e transações.
+Avaliaremos também o tempo de carregamento das páginas e a resposta do servidor. Embora o Bubble.io otimize automaticamente o desempenho, monitorarei para garantir uma boa experiência de usuário.
+testaremos a segurança da aplicação, incluindo a verificação de autenticação, autorização e proteção contra vulnerabilidades comuns como XSS e CSRF.
+Alem de verificar a interface do usuário em diferentes dispositivos e navegadores para garantir que a aplicação seja responsiva e acessível.
+E por fim testaremos todas as integrações com serviços externos, como APIs de pagamento e serviços de email.
 
 ## Testes
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
