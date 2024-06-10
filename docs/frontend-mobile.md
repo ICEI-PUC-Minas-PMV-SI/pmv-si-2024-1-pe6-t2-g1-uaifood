@@ -135,6 +135,14 @@ RNF03 - Permitir 100 conexões simultâneas
 
 ## Considerações de Segurança
 [Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+Para autenticação Utilize o sistema de autenticação do Bubble, que suporta autenticação por email e senha.
+Considere a implementação de autenticação multifator (MFA) para adicionar uma camada extra de segurança.
+Bubble armazena senhas de forma segura usando hashing, garantindo que as senhas não sejam armazenadas em texto plano.
+Autorização no Bubble para controlar quem pode ver, modificar ou deletar dados. Essas regras podem ser baseadas em funções de usuário definidas no banco de dados.
+Utilize workflows para definir permissões específicas e garantir que cada usuário tenha acesso apenas às funcionalidades necessárias para sua função.
+
+Proteção contra ataques o Bubble abstrai o acesso ao banco de dados através de sua interface visual, o que ajuda a prevenir injeções de SQL, pois não há inserção direta de código SQL.
+
 
 ## Implantação
 [Instruções para implantar a aplicação distribuída em um ambiente de produção.]
