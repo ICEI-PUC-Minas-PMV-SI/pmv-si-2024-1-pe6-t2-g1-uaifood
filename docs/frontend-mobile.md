@@ -151,19 +151,19 @@ Caso minha aplicação necessite de mais recursos ou personalização no futuro,
    
 5. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
 
-Ambiente de Desenvolvimento sera o Bubble.io:
 O Bubble.io gerencia todas as dependências necessárias para executar a aplicação, eliminando a necessidade de instalação manual.
 No editor do Bubble.io, irei para Configurações e depois para a aba "API".
 Adicionarei minhas variáveis de ambiente na seção "Secrets", como chaves de API e URLs de endpoints externos.
 
 6. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
 
-No editor do Bubble.io, clicarei no botão "Deploy" (Implantar) no canto superior direito.
+Clicaremos no botão "Deploy" (Implantar) no canto superior direito.
 Selecionarei "Deploy to Live" (Implantar para Produção).
 Confirmarei o deploy para mover minha aplicação do ambiente de desenvolvimento para o ambiente de produção.
 Verificarei se todas as alterações estão refletidas na versão de produção.
 
 7. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+
 Vamos verificar  se todas as funcionalidades principais da aplicação estão funcionando conforme esperado, testando fluxos de usuário como login, cadastro, navegação e transações.
 Avaliaremos também o tempo de carregamento das páginas e a resposta do servidor. Embora o Bubble.io otimize automaticamente o desempenho, monitorarei para garantir uma boa experiência de usuário.
 testaremos a segurança da aplicação, incluindo a verificação de autenticação, autorização e proteção contra vulnerabilidades comuns como XSS e CSRF.
@@ -174,10 +174,33 @@ E por fim testaremos todas as integrações com serviços externos, como APIs de
 [Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
 
 1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
+
+Desenvolveremos casos de teste detalhados que cobrem todos os requisitos funcionais e não funcionais da aplicação. Cada caso de teste descreverá um cenário específico, incluindo os passos a serem seguidos, as entradas necessárias e os resultados esperados.
+Garantiremos que todos os requisitos especificados no documento de requisitos do projeto estejam cobertos pelos casos de teste. Isso incluirá funcionalidades principais como login, registro, processamento de pedidos, pagamento, etc., bem como requisitos não funcionais como desempenho, segurança e usabilidade.
+   
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
+
+Testar unidades individuais de código, como funções, métodos e classes, para garantir que funcionem corretamente de forma isolada.
+Ferramentas: Utilizaremos o framework de teste do Bubble.io, que permite a criação e execução de testes unitários diretamente na plataforma. Caso seja necessário, também consideraremos ferramentas externas que possam ser integradas ao Bubble.io.
+Implementação: Escreveremos testes unitários para cada componente crítico da aplicação, verificando a lógica de negócios, manipulação de dados e outras funcionalidades isoladas.
+
 3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
+
+Verificaremos a interação correta entre diferentes componentes da aplicação e garantir que eles funcionem juntos conforme o esperado.
+Ferramentas: Além das ferramentas integradas ao Bubble.io, utilizaremos ferramentas de integração contínua como GitLab CI/CD ou Jenkins, que permitem automatizar os testes de integração após cada mudança no código.
+Implementação: Realizaremos testes de integração que abrangem fluxos de trabalho completos, como o processo de login e registro, a realização de um pedido e o processamento de pagamentos. Esses testes garantirão que os componentes individuais interajam corretamente entre si.
+
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
+
+Avaliaremos o desempenho da aplicação sob carga significativa e identificar pontos de falha ou gargalos de desempenho.
+Ferramentas: Utilizaremos ferramentas como JMeter, Locust ou o recurso de testes de carga do Bubble.io para simular múltiplos usuários acessando a aplicação simultaneamente.
+Implementação: Executaremos testes de carga simulando diferentes cenários de uso, como um grande número de usuários acessando a aplicação ao mesmo tempo, picos de tráfego durante horários de alta demanda e operações intensivas em recursos, como processamento de pedidos em massa.
+
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+
+Utilizaremos frameworks de teste integrados ao Bubble.io para testes unitários e de integração. Dependendo da necessidade, poderemos integrar outros frameworks de teste populares compatíveis.
+Para agilizar o processo de teste, implementaremos testes automatizados usando ferramentas como Selenium para testes de interface de usuário, Postman para testes de APIs e scripts de automação para tarefas repetitivas.
+Utilizaremos ferramentas como Google Analytics, Mixpanel e o sistema de monitoramento do Bubble.io para rastrear a performance e identificar problemas em tempo real. Geraremos relatórios detalhados para analisar os resultados dos testes e identificar áreas de melhoria.
 
 # Referências
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
