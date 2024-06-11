@@ -189,26 +189,23 @@ Garantiremos que todos os requisitos especificados no documento de requisitos do
 2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
 
 Testar unidades individuais de código, como funções, métodos e classes, para garantir que funcionem corretamente de forma isolada.
-Ferramentas: Utilizaremos o framework de teste do Bubble.io, que permite a criação e execução de testes unitários diretamente na plataforma. Caso seja necessário, também consideraremos ferramentas externas que possam ser integradas ao Bubble.io.
-Implementação: Escreveremos testes unitários para cada componente crítico da aplicação, verificando a lógica de negócios, manipulação de dados e outras funcionalidades isoladas.
+Utilizaremos o framework de teste do Bubble.io, que permite a criação e execução de testes unitários diretamente na plataforma. Caso seja necessário, também consideraremos ferramentas externas que possam ser integradas ao Bubble.io.
+Escreveremos testes unitários para cada componente crítico da aplicação, verificando a lógica de negócios, manipulação de dados e outras funcionalidades isoladas.
 
 3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
 
-Verificaremos a interação correta entre diferentes componentes da aplicação e garantir que eles funcionem juntos conforme o esperado.
-Ferramentas: Além das ferramentas integradas ao Bubble.io, utilizaremos ferramentas de integração contínua como GitLab CI/CD ou Jenkins, que permitem automatizar os testes de integração após cada mudança no código.
-Implementação: Realizaremos testes de integração que abrangem fluxos de trabalho completos, como o processo de login e registro, a realização de um pedido e o processamento de pagamentos. Esses testes garantirão que os componentes individuais interajam corretamente entre si.
+Verificaremos a interação correta entre diferentes componentes da aplicação e garantir que eles funcionem juntos conforme o esperado. Além das ferramentas integradas ao Bubble.io, que permitem automatizar os testes de integração após cada mudança no código.
+Realizaremos testes de integração que abrangem fluxos de trabalho completos, como o processo de login e registro, a realização de um pedido e o processamento de pagamentos. Esses testes garantirão que os componentes individuais interajam corretamente entre si.
 
 4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
 
 Avaliaremos o desempenho da aplicação sob carga significativa e identificar pontos de falha ou gargalos de desempenho.
-Ferramentas: Utilizaremos ferramentas como JMeter, Locust ou o recurso de testes de carga do Bubble.io para simular múltiplos usuários acessando a aplicação simultaneamente.
-Implementação: Executaremos testes de carga simulando diferentes cenários de uso, como um grande número de usuários acessando a aplicação ao mesmo tempo, picos de tráfego durante horários de alta demanda e operações intensivas em recursos, como processamento de pedidos em massa.
+Os recursos de testes de carga do Bubble.io para simular múltiplos usuários acessando a aplicação simultaneamente.
+Executaremos testes de carga simulando diferentes cenários de uso, como um grande número de usuários acessando a aplicação ao mesmo tempo, picos de tráfego durante horários de alta demanda e operações intensivas em recursos, como processamento de pedidos em massa.
 
 5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
 
-Utilizaremos frameworks de teste integrados ao Bubble.io para testes unitários e de integração. Dependendo da necessidade, poderemos integrar outros frameworks de teste populares compatíveis.
-Para agilizar o processo de teste, implementaremos testes automatizados usando ferramentas como Selenium para testes de interface de usuário, Postman para testes de APIs e scripts de automação para tarefas repetitivas.
-Utilizaremos ferramentas como Google Analytics, Mixpanel e o sistema de monitoramento do Bubble.io para rastrear a performance e identificar problemas em tempo real. Geraremos relatórios detalhados para analisar os resultados dos testes e identificar áreas de melhoria.
+Utilizaremos sistema de monitoramento do Bubble.io para rastrear a performance e identificar problemas em tempo real. Geraremos relatórios detalhados para analisar os resultados dos testes e identificar áreas de melhoria.
 
 # Referências
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
