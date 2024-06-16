@@ -112,8 +112,6 @@ Adição ao Carrinho: Quando o usuário adiciona itens ao carrinho, as informaç
 
 ![Cardap3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/2249257b-679b-4fdd-96e4-acaa004f054f)
 
-![Carrinho](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/7016de6f-fbce-4dd4-a0d7-a26ec916b8af)
-
 ![Carrinho2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/30c51cd1-d0a5-4fe4-b61e-9c9634488fab)
 
 3. Armazenamento de Dados:
