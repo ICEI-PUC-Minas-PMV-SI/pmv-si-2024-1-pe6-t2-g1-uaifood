@@ -114,6 +114,7 @@ Adição ao Carrinho: Quando o usuário adiciona itens ao carrinho, as informaç
 
 ![Carrinho](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/7016de6f-fbce-4dd4-a0d7-a26ec916b8af)
 
+![Carrinho2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/30c51cd1-d0a5-4fe4-b61e-9c9634488fab)
 
 3. Armazenamento de Dados:
 
@@ -135,11 +136,14 @@ Geolocalização: Para entregas, a API dos correios é utilizada para facilitar 
 
 Status do Pedido: Os dados do pedido são constantemente atualizados e disponibilizados para o usuário acompanhar o status em tempo real.
 
+![pedido](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/f67fd1dd-aaee-4860-9f27-e1669534116d)
 
 
 6. Exibição de Dados:
 
 Interface do Usuário: Todos os dados processados e armazenados são apresentados ao usuário através de uma interface intuitiva e responsiva. Informações como menus de restaurantes, detalhes do pedido, e status de entrega são exibidos de forma clara e acessível.
+
+Apresentado nas imagens anteriores. 
 
 ## Requisitos Funcionais
 
