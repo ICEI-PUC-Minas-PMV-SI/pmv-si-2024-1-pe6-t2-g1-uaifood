@@ -94,21 +94,48 @@ O fluxo de dados na nossa aplicação de delivery desenvolvida na plataforma Bub
 
 Cadastro e Login: Os usuários fornecem suas informações pessoais, como nome, email e senha, para criar uma conta ou fazer login. Esses dados são validados e enviados ao servidor.
 
+![Cadastro](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/dad8715a-0ac7-414c-b047-97c433154c77)
+
+![Login](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/e029d983-0abb-4d66-83e8-62c3a4eb43b2)
+
 2. Processamento de Dados:
 
 Adição ao Carrinho: Quando o usuário adiciona itens ao carrinho, as informações sobre os pratos selecionados, incluindo quantidade e preços, são enviadas ao backend e temporariamente armazenadas.
+
+![Restaurante](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/9771ebcd-77b5-4645-9c95-4384c6ebfcfe)
+
+![Restaurante2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/a01b9e0b-39a4-40f0-9bbe-1913bbc3f741)
+
+![Cardap 1](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/4c95f5d7-2b1e-47f5-b1e7-dc51021dc4f3)
+
+![Cardap2](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/ee7f0793-6dd9-4b55-9442-c2f027c20a1e)
+
+![Cardap3](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/2249257b-679b-4fdd-96e4-acaa004f054f)
+
+![Carrinho](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/7016de6f-fbce-4dd4-a0d7-a26ec916b8af)
+
 
 3. Armazenamento de Dados:
 
 Banco de Dados: Informações dos usuários, detalhes dos restaurantes, menus de pratos, e pedidos são armazenados no banco de dados. O Bubble.io gerencia o armazenamento e a segurança dos dados utilizando práticas recomendadas.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/699835b1-342d-4863-ac07-fe1ebcd110be)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/0fdc1bb1-ddd3-4a4b-95d1-01cea7c172ce)
+
+
 4. Interações com APIs Externas:
 
 Geolocalização: Para entregas, a API dos correios é utilizada para facilitar o preenchimentos de dados do endereço. 
 
+![Perfil](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe6-t2-g1-uaifood/assets/89950016/fe9ec10e-1de1-4fe7-bc15-331391eb3d36)
+
+
 5. Atualizações e Notificações:
 
 Status do Pedido: Os dados do pedido são constantemente atualizados e disponibilizados para o usuário acompanhar o status em tempo real.
+
+
 
 6. Exibição de Dados:
 
